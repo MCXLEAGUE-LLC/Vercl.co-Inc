@@ -3,6 +3,7 @@ import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import { inter, satoshi } from "@/styles/fonts";
 import { cn, constructMetadata } from "@dub/utils";
+import "@/styles/globals.css";
 
 export default function RootLayout({
     children,
