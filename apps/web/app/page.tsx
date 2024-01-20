@@ -148,7 +148,7 @@ export default async function Home() {
     </div>
   </div>
 </div>
-<div class="mx-auto w-full max-w-screen-xl px-2.5 lg:px-20 pb-10 pt-24">
+<div className="mx-auto w-full max-w-screen-xl px-2.5 lg:px-20 pb-10 pt-24">
       <div className="mx-auto max-w-md text-center sm:max-w-xl">
   <h2 className="font-display text-4xl font-extrabold leading-tight text-black sm:text-5xl sm:leading-tight">
     <span className="bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">
