@@ -3,6 +3,7 @@ import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import { satoshi, inter } from "@/styles/fonts";
 import { cn, constructMetadata } from "@dub/utils";
+import "@/styles/globals.css";
 
 export const metadata = {
   title: "Vercl.co - is the go-to link management infrastructure for modern marketing teams.",
