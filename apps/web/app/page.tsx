@@ -8,7 +8,7 @@ import { motion } from "framer-motion";
 import { useParams } from "next/navigation";
 import { useState } from "react";
 import { useDebounce } from "use-debounce";
-import { Background, FEATURES_LIST, Background, MaxWidthWrapper, Form } from "@dub/ui";
+import { FEATURES_LIST, Background, MaxWidthWrapper, Form } from "@dub/ui";
 
 export default async function Home() {
   return (
