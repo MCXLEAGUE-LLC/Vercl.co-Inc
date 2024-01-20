@@ -20,7 +20,7 @@ export default async function Home() {
     href="/blog/company"
   >
     <p className="text-sm font-semibold text-gray-700 [text-wrap:balance]">
-      Unveiling Dub.co's New Chapter
+      Unveiling Vercl.co
     </p>
     <div className="group relative flex items-center">
       <svg
@@ -52,15 +52,14 @@ export default async function Home() {
     </div>
   </a>
   <h1 className="mt-5 font-display text-4xl font-extrabold leading-[1.15] text-black sm:text-6xl sm:leading-[1.15]">
-    Short Links With
+    Modern Short Links With
     <br />
     <span className="bg-gradient-to-r from-amber-500 via-orange-600 to-yellow-500 bg-clip-text text-transparent">
       Superpowers
     </span>
   </h1>
   <h2 className="mt-5 text-gray-600 sm:text-xl">
-    Dub.co is the open-source link management infrastructure for modern
-    marketing teams.
+    Vercl.co is a modern link managment infrastructure for every use case. 
   </h2>
   <div className="mx-auto mt-5 flex max-w-fit space-x-4">
     <a
@@ -97,7 +96,7 @@ export default async function Home() {
       <line x1={8} x2={16} y1={12} y2={12} />
     </svg>
     <input
-      placeholder="https://www.mcxleague.com/awesome"
+      placeholder="https://www.vercl.co/awesome"
       autoComplete="off"
       className="peer block w-full rounded-md border border-gray-200 bg-white p-2 pl-10 pr-12 shadow-lg focus:border-black focus:outline-none focus:ring-0 sm:text-sm"
       type="url"
