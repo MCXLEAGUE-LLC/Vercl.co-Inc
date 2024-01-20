@@ -23,6 +23,7 @@ export default function PlaceholderContent() {
   const [showText] = useDebounce(loading ? false : true, 800);
 
   return (
+<div>
     <Background />
     <div className="z-10 w-full max-w-xl px-5 xl:px-0">
       <a
@@ -44,5 +45,6 @@ export default function PlaceholderContent() {
       </h1>
       <p className="mt-6 animate-fade-up text-center text-gray-500 opacity-0 [text-wrap:balance] md:text-xl" style={{ animationDelay: "0.25s", animationFillMode: "forwards" }}>Vercl.co is the go-to link management infrastructure for modern marketing teams.</p>
     </div>
+</div>
   );
 }
