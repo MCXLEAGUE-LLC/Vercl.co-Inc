@@ -125,22 +125,6 @@ export default async function Home() {
   </div>
 </form>
   </div>
-      <div>
-  <div className="mb-2.5 flex items-center space-x-2">
-    <div className="h-6 w-28 rounded-md bg-gray-200" />
-    <div className="h-6 w-6 rounded-full bg-gray-200" />
-    <div className="h-6 w-20 rounded-md bg-gray-200" />
-  </div>
-  <div className="h-4 w-60 rounded-md bg-gray-200 sm:w-80" />
-</div>
-<div>
-  <div className="mb-2.5 flex items-center space-x-2">
-    <div className="h-6 w-28 rounded-md bg-gray-200" />
-    <div className="h-6 w-6 rounded-full bg-gray-200" />
-    <div className="h-6 w-20 rounded-md bg-gray-200" />
-  </div>
-  <div className="h-4 w-60 rounded-md bg-gray-200 sm:w-80" />
-</div>
 
 <div className="border-y border-gray-200 bg-white/10 py-8 shadow-[inset_10px_-50px_94px_0_rgb(199,199,199,0.2)] backdrop-blur">
   <div className="mx-auto w-full max-w-screen-xl px-2.5 lg:px-20 grid gap-y-4 divide-x divide-gray-200 md:grid-cols-3 md:gap-y-0">
@@ -163,6 +147,25 @@ export default async function Home() {
       </p>
     </div>
   </div>
+</div>
+
+      <div classname="mx-auto max-w-md text-center sm:max-w-xl">
+  <h2 classname="font-display text-4xl font-extrabold leading-tight text-black sm:text-5xl sm:leading-tight">
+    <span classname="bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">
+      Powerful
+    </span>
+    {"{"}" "{"}"}
+    features for{"{"}" "{"}"}
+    <span classname="bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">
+      effective
+    </span>
+    {"{"}" "{"}"}
+    marketing teams
+  </h2>
+  <p classname="mt-5 text-gray-600 sm:text-lg">
+    Vercl.co is more than just a link shortener. We've built a suite of powerful
+    features that gives you a marketing advantage.
+  </p>
 </div>
     </>
   );
