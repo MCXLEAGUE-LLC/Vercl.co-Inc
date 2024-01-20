@@ -9,7 +9,7 @@ import { useParams } from "next/navigation";
 import { useState } from "react";
 import { useDebounce } from "use-debounce";
 import { Background } from "@dub/ui";
-import { Github, Twitter } from "@/components/shared/icons";
+import { Github, Twitter } from "./components/shared/icons";
 
 export default function PlaceholderContent() {
   const { domain } = useParams() as { domain: string };
