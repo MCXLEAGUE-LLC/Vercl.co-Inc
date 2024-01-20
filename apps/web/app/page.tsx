@@ -8,7 +8,7 @@ import { motion } from "framer-motion";
 import { useParams } from "next/navigation";
 import { useState } from "react";
 import { useDebounce } from "use-debounce";
-import { FEATURES_LIST } from "@dub/ui";
+import { Features } from "@dub/ui";
 
 export default function PlaceholderContent() {
   const { domain } = useParams() as { domain: string };
@@ -22,6 +22,6 @@ export default function PlaceholderContent() {
   const [showText] = useDebounce(loading ? false : true, 800);
 
   return (
-    <FEATURES_LIST />
+    <Features />
   );
 }
