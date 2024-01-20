@@ -77,6 +77,7 @@ export default async function Home() {
     </a>
   </div>
 </div>
+<div className="mx-auto w-full max-w-md px-2.5 sm:px-0">
 <form>
   <div className="relative flex items-center">
     <svg
@@ -124,6 +125,7 @@ export default async function Home() {
     </button>
   </div>
 </form>
+  </div>
     </>
   );
 }
