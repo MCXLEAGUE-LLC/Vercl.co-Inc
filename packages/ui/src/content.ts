@@ -1,6 +1,6 @@
 import { Airplay, BarChart, Link2, QrCode, Users, Webhook } from "lucide-react";
 
-export const Features = [
+export const FEATURES_LIST = [
   {
     title: "Powerful Analytics For The Modern Marketer",
     shortTitle: "Advanced Analytics",
