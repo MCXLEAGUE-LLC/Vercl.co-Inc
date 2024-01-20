@@ -1,7 +1,7 @@
 import { NavMobile, Nav, Footer } from "@dub/ui";
 import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/next";
-import { satoshi } from "@/styles/fonts";
+import { satoshi, inter } from "@/styles/fonts";
 import { cn, constructMetadata } from "@dub/utils";
 
 export const metadata = {
