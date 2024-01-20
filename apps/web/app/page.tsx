@@ -98,7 +98,6 @@ export default async function Home() {
     <input
       placeholder="https://www.mcxleague.com/awesome"
       autoComplete="off"
-      required="false"
       className="peer block w-full rounded-md border border-gray-200 bg-white p-2 pl-10 pr-12 shadow-lg focus:border-black focus:outline-none focus:ring-0 sm:text-sm"
       type="url"
       name="url"
