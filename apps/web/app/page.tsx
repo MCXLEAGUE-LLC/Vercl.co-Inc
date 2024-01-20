@@ -8,12 +8,15 @@ import { motion } from "framer-motion";
 import { useParams } from "next/navigation";
 import { useState } from "react";
 import { useDebounce } from "use-debounce";
-import { Background, LinkPreview } from "@dub/ui";
+import { Background, FEATURES_LIST, Background, MaxWidthWrapper, Form } from "@dub/ui";
 
 export default async function Home() {
   return (
     <>
-      <LinkPreview />
+      <MaxWidthWrapper />
+      <FEATURES_LIST />
+      <Background />
+      <Form />
     </>
   );
 }
