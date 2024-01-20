@@ -30,8 +30,8 @@ export const navItems = [
     slug: "blog",
   },
   {
-    name: "Changelog",
-    slug: "changelog",
+    name: "Documentation",
+    slug: "docs",
   },
 ];
 
