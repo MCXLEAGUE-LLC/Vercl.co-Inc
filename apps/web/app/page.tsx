@@ -150,524 +150,1161 @@ export default async function Home() {
 </div>
   </div>
 
-
-<div id="features">
-  <div className="mx-auto w-full max-w-screen-xl px-2.5 lg:px-20 pb-10 pt-24">
-    <div className="mx-auto max-w-md text-center sm:max-w-xl">
-      <h2 className="font-display text-4xl font-extrabold leading-tight text-black sm:text-5xl sm:leading-tight">
-        <span className="bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">
-          Powerful
-        </span>
-        {' '}features for{' '}
-        <span className="bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">
-          modern
-        </span>
-        {' '}marketing teams
-      </h2>
-      <p className="mt-5 text-gray-600 sm:text-lg">
-        Dub.co is more than just a link shortener. We've built a suite of powerful features that gives you marketing superpowers.
-      </p>
-    </div>
-    <div className="my-10 w-full overflow-hidden rounded-xl border border-gray-200 bg-white/10 shadow-[inset_10px_-50px_94px_0_rgb(199,199,199,0.2)] backdrop-blur lg:h-[540px]">
-      <div className="grid grid-cols-1 gap-10 p-5 lg:grid-cols-3">
-        <div data-orientation="vertical">
-          <div
-            className="border-b border-b-slate-200 py-3 last:border-none"
-            data-orientation="vertical"
-            data-state="open"
-          >
-            <h3
-              className="flex"
-              data-orientation="vertical"
-              data-state="open"
-            >
-              <button
-                aria-controls="radix-:R4mdf75a:"
-                aria-disabled="true"
-                aria-expanded="true"
-                className="flex flex-1 items-center justify-between font-medium transition-all sm:text-lg [&[data-state=open]>svg]:rotate-180"
-                data-orientation="vertical"
-                data-radix-collection-item=""
-                data-state="open"
-                id="radix-:Rmdf75a:"
-                type="button"
-              >
-                <div className="flex items-center space-x-3 p-3">
-                  <svg
-                    className="h-5 w-5 text-gray-500"
-                    fill="none"
-                    height="24"
-                    stroke="currentColor"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    viewBox="0 0 24 24"
-                    width="24"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <line
-                      x1="12"
-                      x2="12"
-                      y1="20"
-                      y2="10"
-                    />
-                    <line
-                      x1="18"
-                      x2="18"
-                      y1="20"
-                      y2="4"
-                    />
-                    <line
-                      x1="6"
-                      x2="6"
-                      y1="20"
-                      y2="16"
-                    />
-                  </svg>
-                  <h3 className="text-base font-semibold text-gray-600">
-                    Analytics that matter
-                  </h3>
-                </div>
-                <svg
-                  className="h-5 w-5 flex-none transition-transform duration-300"
-                  fill="none"
-                  height="24"
-                  stroke="currentColor"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="2"
-                  viewBox="0 0 24 24"
-                  width="24"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path d="m6 9 6 6 6-6" />
-                </svg>
-              </button>
-            </h3>
-            <div
-              aria-labelledby="radix-:Rmdf75a:"
-              className="data-[state=closed]:animate-accordion-up data-[state=open]:animate-accordion-down overflow-hidden text-sm text-gray-500 transition-all sm:text-base"
-              data-orientation="vertical"
-              data-state="open"
-              id="radix-:R4mdf75a:"
-              role="region"
-              style={{
-                '--radix-accordion-content-height': 'var(--radix-collapsible-content-height)',
-                '--radix-accordion-content-width': 'var(--radix-collapsible-content-width)',
-                '--radix-collapsible-content-height': '154px',
-                '--radix-collapsible-content-width': '264px',
-                animationName: 'none',
-                transitionDuration: '0s'
-              }}
-            >
-              <div className="p-3">
-                <p className="mb-4 text-sm text-gray-500">
-                  Dub provides powerful analytics for your links, including geolocation, device, browser, and referrer information.
-                </p>
-                <a
-                  className="block max-w-fit rounded-full border border-black bg-black px-4 py-1.5 text-sm text-white transition-all hover:bg-white hover:text-black"
-                  href="/features/analytics"
-                >
-                  Learn more
-                </a>
-              </div>
-            </div>
-          </div>
-          <div
-            className="border-b border-b-slate-200 py-3 last:border-none"
-            data-orientation="vertical"
-            data-state="closed"
-          >
-            <h3
-              className="flex"
-              data-orientation="vertical"
-              data-state="closed"
-            >
-              <button
-                aria-controls="radix-:R56df75a:"
-                aria-expanded="false"
-                className="flex flex-1 items-center justify-between font-medium transition-all sm:text-lg [&[data-state=open]>svg]:rotate-180"
-                data-orientation="vertical"
-                data-radix-collection-item=""
-                data-state="closed"
-                id="radix-:R16df75a:"
-                type="button"
-              >
-                <div className="flex items-center space-x-3 p-3">
-                  <svg
-                    className="h-5 w-5 text-gray-500"
-                    fill="none"
-                    height="24"
-                    stroke="currentColor"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    viewBox="0 0 24 24"
-                    width="24"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path d="M5 17H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2h-1" />
-                    <polygon points="12 15 17 21 7 21 12 15" />
-                  </svg>
-                  <h3 className="text-base font-semibold text-gray-600">
-                    Use your own domain
-                  </h3>
-                </div>
-                <svg
-                  className="h-5 w-5 flex-none transition-transform duration-300"
-                  fill="none"
-                  height="24"
-                  stroke="currentColor"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="2"
-                  viewBox="0 0 24 24"
-                  width="24"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path d="m6 9 6 6 6-6" />
-                </svg>
-              </button>
-            </h3>
-            <div
-              aria-labelledby="radix-:R16df75a:"
-              className="data-[state=closed]:animate-accordion-up data-[state=open]:animate-accordion-down overflow-hidden text-sm text-gray-500 transition-all sm:text-base"
-              data-orientation="vertical"
-              data-state="closed"
-              hidden
-              id="radix-:R56df75a:"
-              role="region"
-              style={{
-                '--radix-accordion-content-height': 'var(--radix-collapsible-content-height)',
-                '--radix-accordion-content-width': 'var(--radix-collapsible-content-width)'
-              }}
-            />
-          </div>
-          <div
-            className="border-b border-b-slate-200 py-3 last:border-none"
-            data-orientation="vertical"
-            data-state="closed"
-          >
-            <h3
-              className="flex"
-              data-orientation="vertical"
-              data-state="closed"
-            >
-              <button
-                aria-controls="radix-:R5mdf75a:"
-                aria-expanded="false"
-                className="flex flex-1 items-center justify-between font-medium transition-all sm:text-lg [&[data-state=open]>svg]:rotate-180"
-                data-orientation="vertical"
-                data-radix-collection-item=""
-                data-state="closed"
-                id="radix-:R1mdf75a:"
-                type="button"
-              >
-                <div className="flex items-center space-x-3 p-3">
-                  <svg
-                    className="h-5 w-5 text-gray-500"
-                    fill="none"
-                    height="24"
-                    stroke="currentColor"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    viewBox="0 0 24 24"
-                    width="24"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <rect
-                      height="5"
-                      rx="1"
-                      width="5"
-                      x="3"
-                      y="3"
-                    />
-                    <rect
-                      height="5"
-                      rx="1"
-                      width="5"
-                      x="16"
-                      y="3"
-                    />
-                    <rect
-                      height="5"
-                      rx="1"
-                      width="5"
-                      x="3"
-                      y="16"
-                    />
-                    <path d="M21 16h-3a2 2 0 0 0-2 2v3" />
-                    <path d="M21 21v.01" />
-                    <path d="M12 7v3a2 2 0 0 1-2 2H7" />
-                    <path d="M3 12h.01" />
-                    <path d="M12 3h.01" />
-                    <path d="M12 16v.01" />
-                    <path d="M16 12h1" />
-                    <path d="M21 12v.01" />
-                    <path d="M12 21v-1" />
-                  </svg>
-                  <h3 className="text-base font-semibold text-gray-600">
-                    Free QR Code Generator
-                  </h3>
-                </div>
-                <svg
-                  className="h-5 w-5 flex-none transition-transform duration-300"
-                  fill="none"
-                  height="24"
-                  stroke="currentColor"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="2"
-                  viewBox="0 0 24 24"
-                  width="24"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path d="m6 9 6 6 6-6" />
-                </svg>
-              </button>
-            </h3>
-            <div
-              aria-labelledby="radix-:R1mdf75a:"
-              className="data-[state=closed]:animate-accordion-up data-[state=open]:animate-accordion-down overflow-hidden text-sm text-gray-500 transition-all sm:text-base"
-              data-orientation="vertical"
-              data-state="closed"
-              hidden
-              id="radix-:R5mdf75a:"
-              role="region"
-              style={{
-                '--radix-accordion-content-height': 'var(--radix-collapsible-content-height)',
-                '--radix-accordion-content-width': 'var(--radix-collapsible-content-width)'
-              }}
-            />
-          </div>
-          <div
-            className="border-b border-b-slate-200 py-3 last:border-none"
-            data-orientation="vertical"
-            data-state="closed"
-          >
-            <h3
-              className="flex"
-              data-orientation="vertical"
-              data-state="closed"
-            >
-              <button
-                aria-controls="radix-:R66df75a:"
-                aria-expanded="false"
-                className="flex flex-1 items-center justify-between font-medium transition-all sm:text-lg [&[data-state=open]>svg]:rotate-180"
-                data-orientation="vertical"
-                data-radix-collection-item=""
-                data-state="closed"
-                id="radix-:R26df75a:"
-                type="button"
-              >
-                <div className="flex items-center space-x-3 p-3">
-                  <svg
-                    className="h-5 w-5 text-gray-500"
-                    fill="none"
-                    height="24"
-                    stroke="currentColor"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    viewBox="0 0 24 24"
-                    width="24"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path d="M9 17H7A5 5 0 0 1 7 7h2" />
-                    <path d="M15 7h2a5 5 0 1 1 0 10h-2" />
-                    <line
-                      x1="8"
-                      x2="16"
-                      y1="12"
-                      y2="12"
-                    />
-                  </svg>
-                  <h3 className="text-base font-semibold text-gray-600">
-                    Personalize Your Short links
-                  </h3>
-                </div>
-                <svg
-                  className="h-5 w-5 flex-none transition-transform duration-300"
-                  fill="none"
-                  height="24"
-                  stroke="currentColor"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="2"
-                  viewBox="0 0 24 24"
-                  width="24"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path d="m6 9 6 6 6-6" />
-                </svg>
-              </button>
-            </h3>
-            <div
-              aria-labelledby="radix-:R26df75a:"
-              className="data-[state=closed]:animate-accordion-up data-[state=open]:animate-accordion-down overflow-hidden text-sm text-gray-500 transition-all sm:text-base"
-              data-orientation="vertical"
-              data-state="closed"
-              hidden
-              id="radix-:R66df75a:"
-              role="region"
-              style={{
-                '--radix-accordion-content-height': 'var(--radix-collapsible-content-height)',
-                '--radix-accordion-content-width': 'var(--radix-collapsible-content-width)'
-              }}
-            />
-          </div>
-          <div
-            className="border-b border-b-slate-200 py-3 last:border-none"
-            data-orientation="vertical"
-            data-state="closed"
-          >
-            <h3
-              className="flex"
-              data-orientation="vertical"
-              data-state="closed"
-            >
-              <button
-                aria-controls="radix-:R6mdf75a:"
-                aria-expanded="false"
-                className="flex flex-1 items-center justify-between font-medium transition-all sm:text-lg [&[data-state=open]>svg]:rotate-180"
-                data-orientation="vertical"
-                data-radix-collection-item=""
-                data-state="closed"
-                id="radix-:R2mdf75a:"
-                type="button"
-              >
-                <div className="flex items-center space-x-3 p-3">
-                  <svg
-                    className="h-5 w-5 text-gray-500"
-                    fill="none"
-                    height="24"
-                    stroke="currentColor"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    viewBox="0 0 24 24"
-                    width="24"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
-                    <circle
-                      cx="9"
-                      cy="7"
-                      r="4"
-                    />
-                    <path d="M22 21v-2a4 4 0 0 0-3-3.87" />
-                    <path d="M16 3.13a4 4 0 0 1 0 7.75" />
-                  </svg>
-                  <h3 className="text-base font-semibold text-gray-600">
-                    Collaborate With Your Team
-                  </h3>
-                </div>
-                <svg
-                  className="h-5 w-5 flex-none transition-transform duration-300"
-                  fill="none"
-                  height="24"
-                  stroke="currentColor"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="2"
-                  viewBox="0 0 24 24"
-                  width="24"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path d="m6 9 6 6 6-6" />
-                </svg>
-              </button>
-            </h3>
-            <div
-              aria-labelledby="radix-:R2mdf75a:"
-              className="data-[state=closed]:animate-accordion-up data-[state=open]:animate-accordion-down overflow-hidden text-sm text-gray-500 transition-all sm:text-base"
-              data-orientation="vertical"
-              data-state="closed"
-              hidden
-              id="radix-:R6mdf75a:"
-              role="region"
-              style={{
-                '--radix-accordion-content-height': 'var(--radix-collapsible-content-height)',
-                '--radix-accordion-content-width': 'var(--radix-collapsible-content-width)'
-              }}
-            />
-          </div>
+<div className="mx-auto w-full max-w-screen-xl px-2.5 lg:px-20 mb-8 mt-16">
+  <div className="mx-auto mb-6 text-center sm:max-w-lg">
+    <h1 className="font-display text-4xl font-extrabold text-black [text-wrap:balance] sm:text-5xl sm:leading-tight">
+      <span className="bg-gradient-to-r from-violet-600 via-blue-600 to-cyan-600 bg-clip-text text-transparent">
+        Straightforward,
+      </span>
+      {' '}affordable pricing
+    </h1>
+    <p className="mt-5 text-gray-600 sm:text-lg">
+      Find a plan that fits your needs.{' '}
+      <br />
+      {' '}Start for free, no credit card required.
+    </p>
+  </div>
+  <div className="mx-auto mb-12 flex max-w-fit items-center space-x-2 text-center">
+    <p className="w-14 font-medium text-gray-600">
+      Monthly
+    </p>
+    <div
+      style={{
+        position: 'relative'
+      }}
+     />
+    <button
+      aria-checked="true"
+      className="radix-state-checked:bg-blue-500 radix-state-unchecked:bg-gray-200 cursor-pointer focus:outline-none focus-visible:ring focus-visible:ring-blue-500 focus-visible:ring-opacity-75 relative inline-flex flex-shrink-0 rounded-full border-2 border-transparent transition-colors duration-200 ease-in-out h-5 w-11"
+      data-state="checked"
+      role="switch"
+      type="button"
+      value="on"
+    >
+      <span
+        className="radix-state-checked:translate-x-6 radix-state-unchecked:translate-x-0 pointer-events-none transform rounded-full bg-white shadow-lg ring-0 transition duration-200 ease-in-out h-4 w-4 translate-x-6"
+        data-state="checked"
+      />
+    </button>
+    <p className="w-14 font-medium text-gray-600">
+      Yearly
+    </p>
+  </div>
+  <div className="grid grid-cols-1 gap-8 lg:grid-cols-3 lg:gap-4">
+    <div className="relative rounded-2xl bg-white border border-gray-200 shadow-lg">
+      <div className="p-8">
+        <div className="flex items-center space-x-2">
+          <div className="h-5 w-5 rounded-full bg-black" />
+          <h3 className="font-display text-2xl font-bold text-black">
+            Free
+          </h3>
         </div>
-        <div className="lg:col-span-2">
-          <div
-            className="relative -mb-6 aspect-[1735/990] w-full overflow-hidden rounded-t-2xl shadow-2xl lg:mt-10 lg:h-[500px] lg:w-[800px]"
-            style={{
-              opacity: '1',
-              transform: 'none'
-            }}
+        <p className="mt-2 text-gray-500">
+          For hobby & side projects
+        </p>
+        <div className="my-4 flex items-end space-x-2">
+          <p className="font-display text-5xl font-semibold">
+            $0
+          </p>
+        </div>
+        <div className="flex items-center justify-between">
+          <p className="text-gray-500">
+            Free forever
+          </p>
+        </div>
+      </div>
+      <div className="flex items-center justify-center border-b border-t border-gray-200 bg-gray-50 px-8 py-5">
+        <a
+          className="block w-full rounded-full border py-2 text-center font-medium text-white transition-all duration-200 ease-in-out hover:bg-transparent bg-black border-black hover:text-black"
+          href="https://app.dub.co/register"
+        >
+          Start for free
+        </a>
+      </div>
+      <h4 className="mt-7 px-8 font-medium text-gray-600">
+        What's included:
+      </h4>
+      <ul className="mb-10 mt-5 space-y-5 px-8">
+        <li className="flex space-x-4">
+          <svg
+            className="h-6 w-6 flex-none text-black"
+            fill="none"
+            height="24"
+            shapeRendering="geometricPrecision"
+            viewBox="0 0 24 24"
+            width="24"
           >
-            <button className="group absolute inset-0 z-10 flex h-full w-full items-center justify-center bg-black bg-opacity-0 transition-all duration-300 hover:bg-opacity-5 focus:outline-none">
-              <div className="flex flex-col items-center space-y-4">
-                <div className="rounded-full bg-gradient-to-tr from-black to-gray-700 p-5 ring-[6px] ring-gray-300 transition-all duration-300 group-hover:scale-110 group-hover:ring-4 group-active:scale-90">
-                  <svg
-                    className="h-5 w-5 text-white"
-                    fill="currentColor"
-                    height="24"
-                    stroke="currentColor"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    viewBox="0 0 24 24"
-                    width="24"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <polygon points="5 3 19 12 5 21 5 3" />
-                  </svg>
-                </div>
-                <div className="flex rounded-full border border-gray-200 bg-white p-2 shadow-xl group-hover:shadow-2xl">
-                  <img
-                    alt="Steven Tey"
-                    className="h-10 w-10 rounded-full blur-0"
-                    data-nimg="1"
-                    decoding="async"
-                    height="36"
-                    loading="lazy"
-                    src="https://dub.co/_next/image?url=https%3A%2F%2Fd2vwwcvoksz7ty.cloudfront.net%2Fauthor%2Fsteventey.jpg&w=96&q=75&dpl=dpl_AVZhgNCcSja2E9sUibdYcydpCsfB"
-                    srcSet="/_next/image?url=https%3A%2F%2Fd2vwwcvoksz7ty.cloudfront.net%2Fauthor%2Fsteventey.jpg&w=48&q=75&dpl=dpl_AVZhgNCcSja2E9sUibdYcydpCsfB 1x, /_next/image?url=https%3A%2F%2Fd2vwwcvoksz7ty.cloudfront.net%2Fauthor%2Fsteventey.jpg&w=96&q=75&dpl=dpl_AVZhgNCcSja2E9sUibdYcydpCsfB 2x"
-                    style={{
-                      color: 'transparent'
-                    }}
-                    width="36"
-                  />
-                  <div className="ml-2 mr-4 flex flex-col text-left">
-                    <p className="text-sm font-medium text-gray-500">
-                      Watch Demo
-                    </p>
-                    <p className="text-sm text-blue-500">
-                      2:56
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </button>
-            <img
-              alt="Powerful analytics for the modern marketer"
-              className="absolute h-full object-cover blur-0"
-              data-nimg="1"
-              decoding="async"
-              height="990"
-              loading="lazy"
-              src="https://dub.co/_next/image?url=https%3A%2F%2Fd2vwwcvoksz7ty.cloudfront.net%2Ffeatures%2Fanalytics.png&w=3840&q=75&dpl=dpl_AVZhgNCcSja2E9sUibdYcydpCsfB"
-              srcSet="/_next/image?url=https%3A%2F%2Fd2vwwcvoksz7ty.cloudfront.net%2Ffeatures%2Fanalytics.png&w=1920&q=75&dpl=dpl_AVZhgNCcSja2E9sUibdYcydpCsfB 1x, /_next/image?url=https%3A%2F%2Fd2vwwcvoksz7ty.cloudfront.net%2Ffeatures%2Fanalytics.png&w=3840&q=75&dpl=dpl_AVZhgNCcSja2E9sUibdYcydpCsfB 2x"
-              style={{
-                color: 'transparent'
-              }}
-              width="1735"
+            <path
+              d="M12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2Z"
+              fill="currentColor"
             />
-          </div>
+            <path
+              d="M8 11.8571L10.5 14.3572L15.8572 9"
+              stroke="white"
+            />
+          </svg>
+          <p className="text-gray-600">
+            25 links/mo
+          </p>
+        </li>
+        <li className="flex space-x-4">
+          <svg
+            className="h-6 w-6 flex-none text-black"
+            fill="none"
+            height="24"
+            shapeRendering="geometricPrecision"
+            viewBox="0 0 24 24"
+            width="24"
+          >
+            <path
+              d="M12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2Z"
+              fill="currentColor"
+            />
+            <path
+              d="M8 11.8571L10.5 14.3572L15.8572 9"
+              stroke="white"
+            />
+          </svg>
+          <p className="text-gray-600">
+            1K tracked clicks/mo
+          </p>
+        </li>
+        <li className="flex space-x-4">
+          <svg
+            className="h-6 w-6 flex-none text-black"
+            fill="none"
+            height="24"
+            shapeRendering="geometricPrecision"
+            viewBox="0 0 24 24"
+            width="24"
+          >
+            <path
+              d="M12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2Z"
+              fill="currentColor"
+            />
+            <path
+              d="M8 11.8571L10.5 14.3572L15.8572 9"
+              stroke="white"
+            />
+          </svg>
+          <p className="text-gray-600">
+            30-day analytics retention
+          </p>
+        </li>
+        <li className="flex space-x-4">
+          <svg
+            className="h-6 w-6 flex-none text-black"
+            fill="none"
+            height="24"
+            shapeRendering="geometricPrecision"
+            viewBox="0 0 24 24"
+            width="24"
+          >
+            <path
+              d="M12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2Z"
+              fill="currentColor"
+            />
+            <path
+              d="M8 11.8571L10.5 14.3572L15.8572 9"
+              stroke="white"
+            />
+          </svg>
+          <p className="text-gray-600">
+            3 custom domains
+          </p>
+        </li>
+        <li className="flex space-x-4">
+          <svg
+            className="h-6 w-6 flex-none text-black"
+            fill="none"
+            height="24"
+            shapeRendering="geometricPrecision"
+            viewBox="0 0 24 24"
+            width="24"
+          >
+            <path
+              d="M12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2Z"
+              fill="currentColor"
+            />
+            <path
+              d="M8 11.8571L10.5 14.3572L15.8572 9"
+              stroke="white"
+            />
+          </svg>
+          <p className="text-gray-600">
+            1 user
+          </p>
+        </li>
+        <li className="flex space-x-4">
+          <svg
+            className="h-6 w-6 flex-none text-black"
+            fill="none"
+            height="24"
+            shapeRendering="geometricPrecision"
+            viewBox="0 0 24 24"
+            width="24"
+          >
+            <path
+              d="M12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2Z"
+              fill="currentColor"
+            />
+            <path
+              d="M8 11.8571L10.5 14.3572L15.8572 9"
+              stroke="white"
+            />
+          </svg>
+          <p
+            className="cursor-help text-gray-600 underline decoration-dotted underline-offset-2"
+            data-state="closed"
+          >
+            Community support
+          </p>
+        </li>
+        <li className="flex space-x-4">
+          <svg
+            className="h-6 w-6 flex-none text-black"
+            fill="none"
+            height="24"
+            shapeRendering="geometricPrecision"
+            viewBox="0 0 24 24"
+            width="24"
+          >
+            <path
+              d="M12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2Z"
+              fill="currentColor"
+            />
+            <path
+              d="M8 11.8571L10.5 14.3572L15.8572 9"
+              stroke="white"
+            />
+          </svg>
+          <p
+            className="cursor-help text-gray-600 underline decoration-dotted underline-offset-2"
+            data-state="closed"
+          >
+            API Access
+          </p>
+        </li>
+      </ul>
+    </div>
+    <div className="relative rounded-2xl bg-white border-2 border-blue-600 shadow-blue-200 shadow-lg">
+      <div className="absolute -top-5 left-0 right-0 mx-auto w-32 rounded-full bg-gradient-to-r from-blue-600 to-cyan-600 px-3 py-2 text-center text-sm font-medium text-white">
+        Popular
+      </div>
+      <div className="p-8">
+        <div className="flex items-center space-x-2">
+          <div className="h-5 w-5 rounded-full bg-blue-500" />
+          <h3 className="font-display text-2xl font-bold text-black">
+            Pro
+          </h3>
+        </div>
+        <p className="mt-2 text-gray-500">
+          For startups & small businesses
+        </p>
+        <div className="my-4 flex items-end space-x-2">
+          <p className="font-display text-5xl font-semibold">
+            $19
+          </p>
+          <p className="text-gray-500">
+            / month
+          </p>
+        </div>
+        <div className="flex items-center justify-between">
+          <p className="text-gray-500">
+            Billed yearly
+          </p>
+        </div>
+      </div>
+      <div className="flex items-center justify-center border-b border-t border-gray-200 bg-gray-50 px-8 py-5">
+        <a
+          className="block w-full rounded-full border py-2 text-center font-medium text-white transition-all duration-200 ease-in-out hover:bg-transparent bg-blue-500 border-blue-500 hover:text-blue-500"
+          href="https://app.dub.co/register"
+        >
+          Get started with Pro
+        </a>
+      </div>
+      <h4 className="mt-7 px-8 font-medium text-gray-600">
+        Everything in Free, plus:
+      </h4>
+      <ul className="mb-10 mt-5 space-y-5 px-8">
+        <li className="flex space-x-4">
+          <svg
+            className="h-6 w-6 flex-none text-blue-500"
+            fill="none"
+            height="24"
+            shapeRendering="geometricPrecision"
+            viewBox="0 0 24 24"
+            width="24"
+          >
+            <path
+              d="M12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2Z"
+              fill="currentColor"
+            />
+            <path
+              d="M8 11.8571L10.5 14.3572L15.8572 9"
+              stroke="white"
+            />
+          </svg>
+          <p className="text-gray-600">
+            1,000 links/mo
+          </p>
+        </li>
+        <li className="flex space-x-4">
+          <svg
+            className="h-6 w-6 flex-none text-blue-500"
+            fill="none"
+            height="24"
+            shapeRendering="geometricPrecision"
+            viewBox="0 0 24 24"
+            width="24"
+          >
+            <path
+              d="M12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2Z"
+              fill="currentColor"
+            />
+            <path
+              d="M8 11.8571L10.5 14.3572L15.8572 9"
+              stroke="white"
+            />
+          </svg>
+          <p className="text-gray-600">
+            50K tracked clicks/mo
+          </p>
+        </li>
+        <li className="flex space-x-4">
+          <svg
+            className="h-6 w-6 flex-none text-blue-500"
+            fill="none"
+            height="24"
+            shapeRendering="geometricPrecision"
+            viewBox="0 0 24 24"
+            width="24"
+          >
+            <path
+              d="M12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2Z"
+              fill="currentColor"
+            />
+            <path
+              d="M8 11.8571L10.5 14.3572L15.8572 9"
+              stroke="white"
+            />
+          </svg>
+          <p className="text-gray-600">
+            1-year analytics retention
+          </p>
+        </li>
+        <li className="flex space-x-4">
+          <svg
+            className="h-6 w-6 flex-none text-blue-500"
+            fill="none"
+            height="24"
+            shapeRendering="geometricPrecision"
+            viewBox="0 0 24 24"
+            width="24"
+          >
+            <path
+              d="M12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2Z"
+              fill="currentColor"
+            />
+            <path
+              d="M8 11.8571L10.5 14.3572L15.8572 9"
+              stroke="white"
+            />
+          </svg>
+          <p className="text-gray-600">
+            10 custom domains
+          </p>
+        </li>
+        <li className="flex space-x-4">
+          <svg
+            className="h-6 w-6 flex-none text-blue-500"
+            fill="none"
+            height="24"
+            shapeRendering="geometricPrecision"
+            viewBox="0 0 24 24"
+            width="24"
+          >
+            <path
+              d="M12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2Z"
+              fill="currentColor"
+            />
+            <path
+              d="M8 11.8571L10.5 14.3572L15.8572 9"
+              stroke="white"
+            />
+          </svg>
+          <p className="text-gray-600">
+            5 users
+          </p>
+        </li>
+        <li className="flex space-x-4">
+          <svg
+            className="h-6 w-6 flex-none text-blue-500"
+            fill="none"
+            height="24"
+            shapeRendering="geometricPrecision"
+            viewBox="0 0 24 24"
+            width="24"
+          >
+            <path
+              d="M12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2Z"
+              fill="currentColor"
+            />
+            <path
+              d="M8 11.8571L10.5 14.3572L15.8572 9"
+              stroke="white"
+            />
+          </svg>
+          <p
+            className="cursor-help text-gray-600 underline decoration-dotted underline-offset-2"
+            data-state="closed"
+          >
+            Basic support
+          </p>
+        </li>
+        <li className="flex space-x-4">
+          <svg
+            className="h-6 w-6 flex-none text-blue-500"
+            fill="none"
+            height="24"
+            shapeRendering="geometricPrecision"
+            viewBox="0 0 24 24"
+            width="24"
+          >
+            <path
+              d="M12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2Z"
+              fill="currentColor"
+            />
+            <path
+              d="M8 11.8571L10.5 14.3572L15.8572 9"
+              stroke="white"
+            />
+          </svg>
+          <p
+            className="cursor-help text-gray-600 underline decoration-dotted underline-offset-2"
+            data-state="closed"
+          >
+            Root domain redirect
+          </p>
+        </li>
+        <li className="flex space-x-4">
+          <svg
+            className="h-6 w-6 flex-none text-blue-500"
+            fill="none"
+            height="24"
+            shapeRendering="geometricPrecision"
+            viewBox="0 0 24 24"
+            width="24"
+          >
+            <path
+              d="M12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2Z"
+              fill="currentColor"
+            />
+            <path
+              d="M8 11.8571L10.5 14.3572L15.8572 9"
+              stroke="white"
+            />
+          </svg>
+          <p
+            className="cursor-help text-gray-600 underline decoration-dotted underline-offset-2"
+            data-state="closed"
+          >
+            Advanced link features
+          </p>
+        </li>
+      </ul>
+    </div>
+    <div className="relative rounded-2xl bg-white border border-gray-200 shadow-lg">
+      <div className="p-8">
+        <div className="flex items-center space-x-2">
+          <div className="h-5 w-5 rounded-full bg-sky-900" />
+          <h3 className="font-display text-2xl font-bold text-black">
+            Business
+          </h3>
+        </div>
+        <p className="mt-2 text-gray-500">
+          For larger teams with increased usage
+        </p>
+        <div className="my-4 flex items-end space-x-2">
+          <p className="font-display text-5xl font-semibold">
+            $39
+          </p>
+          <p className="text-gray-500">
+            / month
+          </p>
+        </div>
+        <div className="flex items-center justify-between">
+          <p className="text-gray-500">
+            Billed yearly
+          </p>
+        </div>
+      </div>
+      <div className="flex items-center justify-center border-b border-t border-gray-200 bg-gray-50 px-8 py-5">
+        <a
+          className="block w-full rounded-full border py-2 text-center font-medium text-white transition-all duration-200 ease-in-out hover:bg-transparent bg-sky-900 border-sky-900 hover:text-sky-900"
+          href="https://app.dub.co/register"
+        >
+          Get started with Business
+        </a>
+      </div>
+      <h4 className="mt-7 px-8 font-medium text-gray-600">
+        Everything in Pro, plus:
+      </h4>
+      <ul className="mb-10 mt-5 space-y-5 px-8">
+        <li className="flex space-x-4">
+          <svg
+            className="h-6 w-6 flex-none text-sky-900"
+            fill="none"
+            height="24"
+            shapeRendering="geometricPrecision"
+            viewBox="0 0 24 24"
+            width="24"
+          >
+            <path
+              d="M12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2Z"
+              fill="currentColor"
+            />
+            <path
+              d="M8 11.8571L10.5 14.3572L15.8572 9"
+              stroke="white"
+            />
+          </svg>
+          <p className="text-gray-600">
+            5,000 links/mo
+          </p>
+        </li>
+        <li className="flex space-x-4">
+          <svg
+            className="h-6 w-6 flex-none text-sky-900"
+            fill="none"
+            height="24"
+            shapeRendering="geometricPrecision"
+            viewBox="0 0 24 24"
+            width="24"
+          >
+            <path
+              d="M12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2Z"
+              fill="currentColor"
+            />
+            <path
+              d="M8 11.8571L10.5 14.3572L15.8572 9"
+              stroke="white"
+            />
+          </svg>
+          <p className="text-gray-600">
+            250K tracked clicks/mo
+          </p>
+        </li>
+        <li className="flex space-x-4">
+          <svg
+            className="h-6 w-6 flex-none text-sky-900"
+            fill="none"
+            height="24"
+            shapeRendering="geometricPrecision"
+            viewBox="0 0 24 24"
+            width="24"
+          >
+            <path
+              d="M12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2Z"
+              fill="currentColor"
+            />
+            <path
+              d="M8 11.8571L10.5 14.3572L15.8572 9"
+              stroke="white"
+            />
+          </svg>
+          <p className="text-gray-600">
+            2-year analytics retention
+          </p>
+        </li>
+        <li className="flex space-x-4">
+          <svg
+            className="h-6 w-6 flex-none text-sky-900"
+            fill="none"
+            height="24"
+            shapeRendering="geometricPrecision"
+            viewBox="0 0 24 24"
+            width="24"
+          >
+            <path
+              d="M12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2Z"
+              fill="currentColor"
+            />
+            <path
+              d="M8 11.8571L10.5 14.3572L15.8572 9"
+              stroke="white"
+            />
+          </svg>
+          <p className="text-gray-600">
+            20 custom domains
+          </p>
+        </li>
+        <li className="flex space-x-4">
+          <svg
+            className="h-6 w-6 flex-none text-sky-900"
+            fill="none"
+            height="24"
+            shapeRendering="geometricPrecision"
+            viewBox="0 0 24 24"
+            width="24"
+          >
+            <path
+              d="M12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2Z"
+              fill="currentColor"
+            />
+            <path
+              d="M8 11.8571L10.5 14.3572L15.8572 9"
+              stroke="white"
+            />
+          </svg>
+          <p className="text-gray-600">
+            15 users
+          </p>
+        </li>
+        <li className="flex space-x-4">
+          <svg
+            className="h-6 w-6 flex-none text-sky-900"
+            fill="none"
+            height="24"
+            shapeRendering="geometricPrecision"
+            viewBox="0 0 24 24"
+            width="24"
+          >
+            <path
+              d="M12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2Z"
+              fill="currentColor"
+            />
+            <path
+              d="M8 11.8571L10.5 14.3572L15.8572 9"
+              stroke="white"
+            />
+          </svg>
+          <p
+            className="cursor-help text-gray-600 underline decoration-dotted underline-offset-2"
+            data-state="closed"
+          >
+            Elevated support
+          </p>
+        </li>
+        <li className="flex space-x-4">
+          <svg
+            className="h-6 w-6 flex-none text-sky-900"
+            fill="none"
+            height="24"
+            shapeRendering="geometricPrecision"
+            viewBox="0 0 24 24"
+            width="24"
+          >
+            <path
+              d="M12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2Z"
+              fill="currentColor"
+            />
+            <path
+              d="M8 11.8571L10.5 14.3572L15.8572 9"
+              stroke="white"
+            />
+          </svg>
+          <p
+            className="cursor-help text-gray-600 underline decoration-dotted underline-offset-2"
+            data-state="closed"
+          >
+            Custom branding
+          </p>
+        </li>
+        <li className="flex space-x-4">
+          <svg
+            className="h-6 w-6 flex-none text-sky-900"
+            fill="none"
+            height="24"
+            shapeRendering="geometricPrecision"
+            viewBox="0 0 24 24"
+            width="24"
+          >
+            <path
+              d="M12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2Z"
+              fill="currentColor"
+            />
+            <path
+              d="M8 11.8571L10.5 14.3572L15.8572 9"
+              stroke="white"
+            />
+          </svg>
+          <p
+            className="cursor-help text-gray-600 underline decoration-dotted underline-offset-2"
+            data-state="closed"
+          >
+            Event callbacks (Beta)
+          </p>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div className="mx-auto mt-8 overflow-hidden rounded-2xl border border-gray-200 bg-white shadow-lg sm:w-4/5">
+    <div className="flex flex-col justify-between space-y-4 p-8 pb-0 sm:flex-row sm:items-center sm:space-y-0 sm:p-16 sm:pb-0">
+      <div>
+        <h3 className="font-display text-2xl font-bold sm:text-3xl">
+          Dub{' '}
+          <span className="bg-gradient-to-r from-violet-600 to-pink-600 bg-clip-text text-transparent">
+            Enterprise
+          </span>
+        </h3>
+        <p className="mt-4 max-w-lg text-gray-500 [text-wrap:balance]">
+          Custom tailored plans for large enterprises. Whether you're running a SMS campaign with{' '}
+          <i>
+            millions
+          </i>
+          {' '}of short links or a large marketing campaign with{' '}
+          <i>
+            billions
+          </i>
+          {' '}of clicks, we've got you covered.
+        </p>
+      </div>
+      <a
+        className="group rounded-full border bg-gradient-to-r from-violet-600 to-pink-600 px-8 py-2 text-center font-medium text-white transition-all duration-200 ease-in-out hover:scale-105 active:scale-95"
+        href="/enterprise"
+      >
+        Contact us
+      </a>
+    </div>
+    <div className="relative mx-8 mt-4 overflow-hidden sm:mx-16">
+      <div className="pointer-events-none absolute -top-1 z-10 h-40 w-full bg-gradient-to-b from-white to-transparent" />
+      <div className="pointer-events-none absolute -bottom-1 z-10 h-40 w-full bg-gradient-to-t from-white to-transparent" />
+      <div className="pointer-events-none absolute -left-1 z-10 h-full w-40 bg-gradient-to-r from-white to-transparent" />
+      <div className="pointer-events-none absolute -right-1 z-10 h-full w-40 bg-gradient-to-l from-white to-transparent" />
+      <div
+        className="animate-skew-scroll mx-auto grid h-[250px] w-[300px] grid-cols-1 gap-5 sm:w-[600px] sm:grid-cols-2"
+        style={{
+          animationPlayState: 'paused'
+        }}
+      >
+        <div className="flex cursor-pointer items-center space-x-2 rounded-md border border-gray-100 p-5 shadow-md transition-all hover:-translate-y-1 hover:translate-x-1 hover:scale-[1.025] hover:shadow-xl">
+          <svg
+            className="h-6 w-6 flex-none text-violet-600"
+            fill="none"
+            height="24"
+            shapeRendering="geometricPrecision"
+            viewBox="0 0 24 24"
+            width="24"
+          >
+            <path
+              d="M12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2Z"
+              fill="currentColor"
+            />
+            <path
+              d="M8 11.8571L10.5 14.3572L15.8572 9"
+              stroke="white"
+            />
+          </svg>
+          <p className="text-gray-600">
+            Custom usage limits
+          </p>
+        </div>
+        <div className="flex cursor-pointer items-center space-x-2 rounded-md border border-gray-100 p-5 shadow-md transition-all hover:-translate-y-1 hover:translate-x-1 hover:scale-[1.025] hover:shadow-xl">
+          <svg
+            className="h-6 w-6 flex-none text-violet-600"
+            fill="none"
+            height="24"
+            shapeRendering="geometricPrecision"
+            viewBox="0 0 24 24"
+            width="24"
+          >
+            <path
+              d="M12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2Z"
+              fill="currentColor"
+            />
+            <path
+              d="M8 11.8571L10.5 14.3572L15.8572 9"
+              stroke="white"
+            />
+          </svg>
+          <p className="text-gray-600">
+            Volume discounts
+          </p>
+        </div>
+        <div className="flex cursor-pointer items-center space-x-2 rounded-md border border-gray-100 p-5 shadow-md transition-all hover:-translate-y-1 hover:translate-x-1 hover:scale-[1.025] hover:shadow-xl">
+          <svg
+            className="h-6 w-6 flex-none text-violet-600"
+            fill="none"
+            height="24"
+            shapeRendering="geometricPrecision"
+            viewBox="0 0 24 24"
+            width="24"
+          >
+            <path
+              d="M12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2Z"
+              fill="currentColor"
+            />
+            <path
+              d="M8 11.8571L10.5 14.3572L15.8572 9"
+              stroke="white"
+            />
+          </svg>
+          <p className="text-gray-600">
+            SSO/SAML
+          </p>
+        </div>
+        <div className="flex cursor-pointer items-center space-x-2 rounded-md border border-gray-100 p-5 shadow-md transition-all hover:-translate-y-1 hover:translate-x-1 hover:scale-[1.025] hover:shadow-xl">
+          <svg
+            className="h-6 w-6 flex-none text-violet-600"
+            fill="none"
+            height="24"
+            shapeRendering="geometricPrecision"
+            viewBox="0 0 24 24"
+            width="24"
+          >
+            <path
+              d="M12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2Z"
+              fill="currentColor"
+            />
+            <path
+              d="M8 11.8571L10.5 14.3572L15.8572 9"
+              stroke="white"
+            />
+          </svg>
+          <p className="text-gray-600">
+            Role-based access controls
+          </p>
+        </div>
+        <div className="flex cursor-pointer items-center space-x-2 rounded-md border border-gray-100 p-5 shadow-md transition-all hover:-translate-y-1 hover:translate-x-1 hover:scale-[1.025] hover:shadow-xl">
+          <svg
+            className="h-6 w-6 flex-none text-violet-600"
+            fill="none"
+            height="24"
+            shapeRendering="geometricPrecision"
+            viewBox="0 0 24 24"
+            width="24"
+          >
+            <path
+              d="M12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2Z"
+              fill="currentColor"
+            />
+            <path
+              d="M8 11.8571L10.5 14.3572L15.8572 9"
+              stroke="white"
+            />
+          </svg>
+          <p className="text-gray-600">
+            Custom contract & SLA
+          </p>
+        </div>
+        <div className="flex cursor-pointer items-center space-x-2 rounded-md border border-gray-100 p-5 shadow-md transition-all hover:-translate-y-1 hover:translate-x-1 hover:scale-[1.025] hover:shadow-xl">
+          <svg
+            className="h-6 w-6 flex-none text-violet-600"
+            fill="none"
+            height="24"
+            shapeRendering="geometricPrecision"
+            viewBox="0 0 24 24"
+            width="24"
+          >
+            <path
+              d="M12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2Z"
+              fill="currentColor"
+            />
+            <path
+              d="M8 11.8571L10.5 14.3572L15.8572 9"
+              stroke="white"
+            />
+          </svg>
+          <p className="text-gray-600">
+            Whiteglove onboarding
+          </p>
+        </div>
+        <div className="flex cursor-pointer items-center space-x-2 rounded-md border border-gray-100 p-5 shadow-md transition-all hover:-translate-y-1 hover:translate-x-1 hover:scale-[1.025] hover:shadow-xl">
+          <svg
+            className="h-6 w-6 flex-none text-violet-600"
+            fill="none"
+            height="24"
+            shapeRendering="geometricPrecision"
+            viewBox="0 0 24 24"
+            width="24"
+          >
+            <path
+              d="M12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2Z"
+              fill="currentColor"
+            />
+            <path
+              d="M8 11.8571L10.5 14.3572L15.8572 9"
+              stroke="white"
+            />
+          </svg>
+          <p className="text-gray-600">
+            Dedicated success manager
+          </p>
+        </div>
+        <div className="flex cursor-pointer items-center space-x-2 rounded-md border border-gray-100 p-5 shadow-md transition-all hover:-translate-y-1 hover:translate-x-1 hover:scale-[1.025] hover:shadow-xl">
+          <svg
+            className="h-6 w-6 flex-none text-violet-600"
+            fill="none"
+            height="24"
+            shapeRendering="geometricPrecision"
+            viewBox="0 0 24 24"
+            width="24"
+          >
+            <path
+              d="M12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2Z"
+              fill="currentColor"
+            />
+            <path
+              d="M8 11.8571L10.5 14.3572L15.8572 9"
+              stroke="white"
+            />
+          </svg>
+          <p className="text-gray-600">
+            Priority support
+          </p>
+        </div>
+        <div className="flex cursor-pointer items-center space-x-2 rounded-md border border-gray-100 p-5 shadow-md transition-all hover:-translate-y-1 hover:translate-x-1 hover:scale-[1.025] hover:shadow-xl">
+          <svg
+            className="h-6 w-6 flex-none text-violet-600"
+            fill="none"
+            height="24"
+            shapeRendering="geometricPrecision"
+            viewBox="0 0 24 24"
+            width="24"
+          >
+            <path
+              d="M12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2Z"
+              fill="currentColor"
+            />
+            <path
+              d="M8 11.8571L10.5 14.3572L15.8572 9"
+              stroke="white"
+            />
+          </svg>
+          <p className="text-gray-600">
+            Dedicated Slack channel
+          </p>
+        </div>
+        <div
+          aria-hidden="true"
+          className="flex cursor-pointer items-center space-x-2 rounded-md border border-gray-100 p-5 shadow-md transition-all hover:-translate-y-1 hover:translate-x-1 hover:scale-[1.025] hover:shadow-xl"
+        >
+          <svg
+            className="h-6 w-6 flex-none text-violet-600"
+            fill="none"
+            height="24"
+            shapeRendering="geometricPrecision"
+            viewBox="0 0 24 24"
+            width="24"
+          >
+            <path
+              d="M12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2Z"
+              fill="currentColor"
+            />
+            <path
+              d="M8 11.8571L10.5 14.3572L15.8572 9"
+              stroke="white"
+            />
+          </svg>
+          <p className="text-gray-600">
+            Custom usage limits
+          </p>
+        </div>
+        <div
+          aria-hidden="true"
+          className="flex cursor-pointer items-center space-x-2 rounded-md border border-gray-100 p-5 shadow-md transition-all hover:-translate-y-1 hover:translate-x-1 hover:scale-[1.025] hover:shadow-xl"
+        >
+          <svg
+            className="h-6 w-6 flex-none text-violet-600"
+            fill="none"
+            height="24"
+            shapeRendering="geometricPrecision"
+            viewBox="0 0 24 24"
+            width="24"
+          >
+            <path
+              d="M12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2Z"
+              fill="currentColor"
+            />
+            <path
+              d="M8 11.8571L10.5 14.3572L15.8572 9"
+              stroke="white"
+            />
+          </svg>
+          <p className="text-gray-600">
+            Volume discounts
+          </p>
+        </div>
+        <div
+          aria-hidden="true"
+          className="flex cursor-pointer items-center space-x-2 rounded-md border border-gray-100 p-5 shadow-md transition-all hover:-translate-y-1 hover:translate-x-1 hover:scale-[1.025] hover:shadow-xl"
+        >
+          <svg
+            className="h-6 w-6 flex-none text-violet-600"
+            fill="none"
+            height="24"
+            shapeRendering="geometricPrecision"
+            viewBox="0 0 24 24"
+            width="24"
+          >
+            <path
+              d="M12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2Z"
+              fill="currentColor"
+            />
+            <path
+              d="M8 11.8571L10.5 14.3572L15.8572 9"
+              stroke="white"
+            />
+          </svg>
+          <p className="text-gray-600">
+            SSO/SAML
+          </p>
+        </div>
+        <div
+          aria-hidden="true"
+          className="flex cursor-pointer items-center space-x-2 rounded-md border border-gray-100 p-5 shadow-md transition-all hover:-translate-y-1 hover:translate-x-1 hover:scale-[1.025] hover:shadow-xl"
+        >
+          <svg
+            className="h-6 w-6 flex-none text-violet-600"
+            fill="none"
+            height="24"
+            shapeRendering="geometricPrecision"
+            viewBox="0 0 24 24"
+            width="24"
+          >
+            <path
+              d="M12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2Z"
+              fill="currentColor"
+            />
+            <path
+              d="M8 11.8571L10.5 14.3572L15.8572 9"
+              stroke="white"
+            />
+          </svg>
+          <p className="text-gray-600">
+            Role-based access controls
+          </p>
+        </div>
+        <div
+          aria-hidden="true"
+          className="flex cursor-pointer items-center space-x-2 rounded-md border border-gray-100 p-5 shadow-md transition-all hover:-translate-y-1 hover:translate-x-1 hover:scale-[1.025] hover:shadow-xl"
+        >
+          <svg
+            className="h-6 w-6 flex-none text-violet-600"
+            fill="none"
+            height="24"
+            shapeRendering="geometricPrecision"
+            viewBox="0 0 24 24"
+            width="24"
+          >
+            <path
+              d="M12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2Z"
+              fill="currentColor"
+            />
+            <path
+              d="M8 11.8571L10.5 14.3572L15.8572 9"
+              stroke="white"
+            />
+          </svg>
+          <p className="text-gray-600">
+            Custom contract & SLA
+          </p>
+        </div>
+        <div
+          aria-hidden="true"
+          className="flex cursor-pointer items-center space-x-2 rounded-md border border-gray-100 p-5 shadow-md transition-all hover:-translate-y-1 hover:translate-x-1 hover:scale-[1.025] hover:shadow-xl"
+        >
+          <svg
+            className="h-6 w-6 flex-none text-violet-600"
+            fill="none"
+            height="24"
+            shapeRendering="geometricPrecision"
+            viewBox="0 0 24 24"
+            width="24"
+          >
+            <path
+              d="M12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2Z"
+              fill="currentColor"
+            />
+            <path
+              d="M8 11.8571L10.5 14.3572L15.8572 9"
+              stroke="white"
+            />
+          </svg>
+          <p className="text-gray-600">
+            Whiteglove onboarding
+          </p>
+        </div>
+        <div
+          aria-hidden="true"
+          className="flex cursor-pointer items-center space-x-2 rounded-md border border-gray-100 p-5 shadow-md transition-all hover:-translate-y-1 hover:translate-x-1 hover:scale-[1.025] hover:shadow-xl"
+        >
+          <svg
+            className="h-6 w-6 flex-none text-violet-600"
+            fill="none"
+            height="24"
+            shapeRendering="geometricPrecision"
+            viewBox="0 0 24 24"
+            width="24"
+          >
+            <path
+              d="M12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2Z"
+              fill="currentColor"
+            />
+            <path
+              d="M8 11.8571L10.5 14.3572L15.8572 9"
+              stroke="white"
+            />
+          </svg>
+          <p className="text-gray-600">
+            Dedicated success manager
+          </p>
+        </div>
+        <div
+          aria-hidden="true"
+          className="flex cursor-pointer items-center space-x-2 rounded-md border border-gray-100 p-5 shadow-md transition-all hover:-translate-y-1 hover:translate-x-1 hover:scale-[1.025] hover:shadow-xl"
+        >
+          <svg
+            className="h-6 w-6 flex-none text-violet-600"
+            fill="none"
+            height="24"
+            shapeRendering="geometricPrecision"
+            viewBox="0 0 24 24"
+            width="24"
+          >
+            <path
+              d="M12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2Z"
+              fill="currentColor"
+            />
+            <path
+              d="M8 11.8571L10.5 14.3572L15.8572 9"
+              stroke="white"
+            />
+          </svg>
+          <p className="text-gray-600">
+            Priority support
+          </p>
+        </div>
+        <div
+          aria-hidden="true"
+          className="flex cursor-pointer items-center space-x-2 rounded-md border border-gray-100 p-5 shadow-md transition-all hover:-translate-y-1 hover:translate-x-1 hover:scale-[1.025] hover:shadow-xl"
+        >
+          <svg
+            className="h-6 w-6 flex-none text-violet-600"
+            fill="none"
+            height="24"
+            shapeRendering="geometricPrecision"
+            viewBox="0 0 24 24"
+            width="24"
+          >
+            <path
+              d="M12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2Z"
+              fill="currentColor"
+            />
+            <path
+              d="M8 11.8571L10.5 14.3572L15.8572 9"
+              stroke="white"
+            />
+          </svg>
+          <p className="text-gray-600">
+            Dedicated Slack channel
+          </p>
         </div>
       </div>
     </div>
   </div>
 </div>
-
-
       
       <div className="mx-auto w-full max-w-screen-xl px-2.5 lg:px-20 space-y-5 pt-20 md:space-y-10">
   <div className="mx-auto max-w-md text-center sm:max-w-xl">
