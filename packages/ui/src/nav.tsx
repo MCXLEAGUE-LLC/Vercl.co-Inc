@@ -41,7 +41,7 @@ export function Nav() {
   const selectedLayout = useSelectedLayoutSegment();
   const helpCenter = selectedLayout === "help";
   const { data: session, isLoading } = useSWR(
-    domain === "https://app.mcxleague.com/api/auth/session",
+    domain === "app.mcxleague.com/api/auth/session",
     fetcher,
     {
       dedupingInterval: 60000,
