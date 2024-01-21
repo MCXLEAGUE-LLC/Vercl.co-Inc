@@ -149,24 +149,526 @@ export default async function Home() {
   </div>
 </div>
   </div>
-<div className="mx-auto w-full max-w-screen-xl px-2.5 lg:px-20 pb-10 pt-24">
-      <div className="mx-auto max-w-md text-center sm:max-w-xl">
-  <h2 className="font-display text-4xl font-extrabold leading-tight text-black sm:text-5xl sm:leading-tight">
-    <span className="bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">
-      Powerful 
-    </span>
-    <span> features for </span>
-    <span className="bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">
-       effective
-    </span>
-     <span> marketing teams</span>
-  </h2>
-  <p className="mt-5 text-gray-600 sm:text-lg">
-    Vercl.co is more than just a link shortener. We've built a suite of powerful
-    features that gives you a marketing advantage.
-  </p>
-</div>
+
+
+<div id="features">
+  <div className="mx-auto w-full max-w-screen-xl px-2.5 lg:px-20 pb-10 pt-24">
+    <div className="mx-auto max-w-md text-center sm:max-w-xl">
+      <h2 className="font-display text-4xl font-extrabold leading-tight text-black sm:text-5xl sm:leading-tight">
+        <span className="bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">
+          Powerful
+        </span>
+        {' '}features for{' '}
+        <span className="bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">
+          modern
+        </span>
+        {' '}marketing teams
+      </h2>
+      <p className="mt-5 text-gray-600 sm:text-lg">
+        Dub.co is more than just a link shortener. We've built a suite of powerful features that gives you marketing superpowers.
+      </p>
+    </div>
+    <div className="my-10 w-full overflow-hidden rounded-xl border border-gray-200 bg-white/10 shadow-[inset_10px_-50px_94px_0_rgb(199,199,199,0.2)] backdrop-blur lg:h-[540px]">
+      <div className="grid grid-cols-1 gap-10 p-5 lg:grid-cols-3">
+        <div data-orientation="vertical">
+          <div
+            className="border-b border-b-slate-200 py-3 last:border-none"
+            data-orientation="vertical"
+            data-state="open"
+          >
+            <h3
+              className="flex"
+              data-orientation="vertical"
+              data-state="open"
+            >
+              <button
+                aria-controls="radix-:R4mdf75a:"
+                aria-disabled="true"
+                aria-expanded="true"
+                className="flex flex-1 items-center justify-between font-medium transition-all sm:text-lg [&[data-state=open]>svg]:rotate-180"
+                data-orientation="vertical"
+                data-radix-collection-item=""
+                data-state="open"
+                id="radix-:Rmdf75a:"
+                type="button"
+              >
+                <div className="flex items-center space-x-3 p-3">
+                  <svg
+                    className="h-5 w-5 text-gray-500"
+                    fill="none"
+                    height="24"
+                    stroke="currentColor"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
+                    viewBox="0 0 24 24"
+                    width="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <line
+                      x1="12"
+                      x2="12"
+                      y1="20"
+                      y2="10"
+                    />
+                    <line
+                      x1="18"
+                      x2="18"
+                      y1="20"
+                      y2="4"
+                    />
+                    <line
+                      x1="6"
+                      x2="6"
+                      y1="20"
+                      y2="16"
+                    />
+                  </svg>
+                  <h3 className="text-base font-semibold text-gray-600">
+                    Analytics that matter
+                  </h3>
+                </div>
+                <svg
+                  className="h-5 w-5 flex-none transition-transform duration-300"
+                  fill="none"
+                  height="24"
+                  stroke="currentColor"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
+                  viewBox="0 0 24 24"
+                  width="24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path d="m6 9 6 6 6-6" />
+                </svg>
+              </button>
+            </h3>
+            <div
+              aria-labelledby="radix-:Rmdf75a:"
+              className="data-[state=closed]:animate-accordion-up data-[state=open]:animate-accordion-down overflow-hidden text-sm text-gray-500 transition-all sm:text-base"
+              data-orientation="vertical"
+              data-state="open"
+              id="radix-:R4mdf75a:"
+              role="region"
+              style={{
+                '--radix-accordion-content-height': 'var(--radix-collapsible-content-height)',
+                '--radix-accordion-content-width': 'var(--radix-collapsible-content-width)',
+                '--radix-collapsible-content-height': '154px',
+                '--radix-collapsible-content-width': '264px',
+                animationName: 'none',
+                transitionDuration: '0s'
+              }}
+            >
+              <div className="p-3">
+                <p className="mb-4 text-sm text-gray-500">
+                  Dub provides powerful analytics for your links, including geolocation, device, browser, and referrer information.
+                </p>
+                <a
+                  className="block max-w-fit rounded-full border border-black bg-black px-4 py-1.5 text-sm text-white transition-all hover:bg-white hover:text-black"
+                  href="/features/analytics"
+                >
+                  Learn more
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            className="border-b border-b-slate-200 py-3 last:border-none"
+            data-orientation="vertical"
+            data-state="closed"
+          >
+            <h3
+              className="flex"
+              data-orientation="vertical"
+              data-state="closed"
+            >
+              <button
+                aria-controls="radix-:R56df75a:"
+                aria-expanded="false"
+                className="flex flex-1 items-center justify-between font-medium transition-all sm:text-lg [&[data-state=open]>svg]:rotate-180"
+                data-orientation="vertical"
+                data-radix-collection-item=""
+                data-state="closed"
+                id="radix-:R16df75a:"
+                type="button"
+              >
+                <div className="flex items-center space-x-3 p-3">
+                  <svg
+                    className="h-5 w-5 text-gray-500"
+                    fill="none"
+                    height="24"
+                    stroke="currentColor"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
+                    viewBox="0 0 24 24"
+                    width="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path d="M5 17H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2h-1" />
+                    <polygon points="12 15 17 21 7 21 12 15" />
+                  </svg>
+                  <h3 className="text-base font-semibold text-gray-600">
+                    Use your own domain
+                  </h3>
+                </div>
+                <svg
+                  className="h-5 w-5 flex-none transition-transform duration-300"
+                  fill="none"
+                  height="24"
+                  stroke="currentColor"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
+                  viewBox="0 0 24 24"
+                  width="24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path d="m6 9 6 6 6-6" />
+                </svg>
+              </button>
+            </h3>
+            <div
+              aria-labelledby="radix-:R16df75a:"
+              className="data-[state=closed]:animate-accordion-up data-[state=open]:animate-accordion-down overflow-hidden text-sm text-gray-500 transition-all sm:text-base"
+              data-orientation="vertical"
+              data-state="closed"
+              hidden
+              id="radix-:R56df75a:"
+              role="region"
+              style={{
+                '--radix-accordion-content-height': 'var(--radix-collapsible-content-height)',
+                '--radix-accordion-content-width': 'var(--radix-collapsible-content-width)'
+              }}
+            />
+          </div>
+          <div
+            className="border-b border-b-slate-200 py-3 last:border-none"
+            data-orientation="vertical"
+            data-state="closed"
+          >
+            <h3
+              className="flex"
+              data-orientation="vertical"
+              data-state="closed"
+            >
+              <button
+                aria-controls="radix-:R5mdf75a:"
+                aria-expanded="false"
+                className="flex flex-1 items-center justify-between font-medium transition-all sm:text-lg [&[data-state=open]>svg]:rotate-180"
+                data-orientation="vertical"
+                data-radix-collection-item=""
+                data-state="closed"
+                id="radix-:R1mdf75a:"
+                type="button"
+              >
+                <div className="flex items-center space-x-3 p-3">
+                  <svg
+                    className="h-5 w-5 text-gray-500"
+                    fill="none"
+                    height="24"
+                    stroke="currentColor"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
+                    viewBox="0 0 24 24"
+                    width="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <rect
+                      height="5"
+                      rx="1"
+                      width="5"
+                      x="3"
+                      y="3"
+                    />
+                    <rect
+                      height="5"
+                      rx="1"
+                      width="5"
+                      x="16"
+                      y="3"
+                    />
+                    <rect
+                      height="5"
+                      rx="1"
+                      width="5"
+                      x="3"
+                      y="16"
+                    />
+                    <path d="M21 16h-3a2 2 0 0 0-2 2v3" />
+                    <path d="M21 21v.01" />
+                    <path d="M12 7v3a2 2 0 0 1-2 2H7" />
+                    <path d="M3 12h.01" />
+                    <path d="M12 3h.01" />
+                    <path d="M12 16v.01" />
+                    <path d="M16 12h1" />
+                    <path d="M21 12v.01" />
+                    <path d="M12 21v-1" />
+                  </svg>
+                  <h3 className="text-base font-semibold text-gray-600">
+                    Free QR Code Generator
+                  </h3>
+                </div>
+                <svg
+                  className="h-5 w-5 flex-none transition-transform duration-300"
+                  fill="none"
+                  height="24"
+                  stroke="currentColor"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
+                  viewBox="0 0 24 24"
+                  width="24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path d="m6 9 6 6 6-6" />
+                </svg>
+              </button>
+            </h3>
+            <div
+              aria-labelledby="radix-:R1mdf75a:"
+              className="data-[state=closed]:animate-accordion-up data-[state=open]:animate-accordion-down overflow-hidden text-sm text-gray-500 transition-all sm:text-base"
+              data-orientation="vertical"
+              data-state="closed"
+              hidden
+              id="radix-:R5mdf75a:"
+              role="region"
+              style={{
+                '--radix-accordion-content-height': 'var(--radix-collapsible-content-height)',
+                '--radix-accordion-content-width': 'var(--radix-collapsible-content-width)'
+              }}
+            />
+          </div>
+          <div
+            className="border-b border-b-slate-200 py-3 last:border-none"
+            data-orientation="vertical"
+            data-state="closed"
+          >
+            <h3
+              className="flex"
+              data-orientation="vertical"
+              data-state="closed"
+            >
+              <button
+                aria-controls="radix-:R66df75a:"
+                aria-expanded="false"
+                className="flex flex-1 items-center justify-between font-medium transition-all sm:text-lg [&[data-state=open]>svg]:rotate-180"
+                data-orientation="vertical"
+                data-radix-collection-item=""
+                data-state="closed"
+                id="radix-:R26df75a:"
+                type="button"
+              >
+                <div className="flex items-center space-x-3 p-3">
+                  <svg
+                    className="h-5 w-5 text-gray-500"
+                    fill="none"
+                    height="24"
+                    stroke="currentColor"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
+                    viewBox="0 0 24 24"
+                    width="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path d="M9 17H7A5 5 0 0 1 7 7h2" />
+                    <path d="M15 7h2a5 5 0 1 1 0 10h-2" />
+                    <line
+                      x1="8"
+                      x2="16"
+                      y1="12"
+                      y2="12"
+                    />
+                  </svg>
+                  <h3 className="text-base font-semibold text-gray-600">
+                    Personalize Your Short links
+                  </h3>
+                </div>
+                <svg
+                  className="h-5 w-5 flex-none transition-transform duration-300"
+                  fill="none"
+                  height="24"
+                  stroke="currentColor"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
+                  viewBox="0 0 24 24"
+                  width="24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path d="m6 9 6 6 6-6" />
+                </svg>
+              </button>
+            </h3>
+            <div
+              aria-labelledby="radix-:R26df75a:"
+              className="data-[state=closed]:animate-accordion-up data-[state=open]:animate-accordion-down overflow-hidden text-sm text-gray-500 transition-all sm:text-base"
+              data-orientation="vertical"
+              data-state="closed"
+              hidden
+              id="radix-:R66df75a:"
+              role="region"
+              style={{
+                '--radix-accordion-content-height': 'var(--radix-collapsible-content-height)',
+                '--radix-accordion-content-width': 'var(--radix-collapsible-content-width)'
+              }}
+            />
+          </div>
+          <div
+            className="border-b border-b-slate-200 py-3 last:border-none"
+            data-orientation="vertical"
+            data-state="closed"
+          >
+            <h3
+              className="flex"
+              data-orientation="vertical"
+              data-state="closed"
+            >
+              <button
+                aria-controls="radix-:R6mdf75a:"
+                aria-expanded="false"
+                className="flex flex-1 items-center justify-between font-medium transition-all sm:text-lg [&[data-state=open]>svg]:rotate-180"
+                data-orientation="vertical"
+                data-radix-collection-item=""
+                data-state="closed"
+                id="radix-:R2mdf75a:"
+                type="button"
+              >
+                <div className="flex items-center space-x-3 p-3">
+                  <svg
+                    className="h-5 w-5 text-gray-500"
+                    fill="none"
+                    height="24"
+                    stroke="currentColor"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
+                    viewBox="0 0 24 24"
+                    width="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
+                    <circle
+                      cx="9"
+                      cy="7"
+                      r="4"
+                    />
+                    <path d="M22 21v-2a4 4 0 0 0-3-3.87" />
+                    <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+                  </svg>
+                  <h3 className="text-base font-semibold text-gray-600">
+                    Collaborate With Your Team
+                  </h3>
+                </div>
+                <svg
+                  className="h-5 w-5 flex-none transition-transform duration-300"
+                  fill="none"
+                  height="24"
+                  stroke="currentColor"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
+                  viewBox="0 0 24 24"
+                  width="24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path d="m6 9 6 6 6-6" />
+                </svg>
+              </button>
+            </h3>
+            <div
+              aria-labelledby="radix-:R2mdf75a:"
+              className="data-[state=closed]:animate-accordion-up data-[state=open]:animate-accordion-down overflow-hidden text-sm text-gray-500 transition-all sm:text-base"
+              data-orientation="vertical"
+              data-state="closed"
+              hidden
+              id="radix-:R6mdf75a:"
+              role="region"
+              style={{
+                '--radix-accordion-content-height': 'var(--radix-collapsible-content-height)',
+                '--radix-accordion-content-width': 'var(--radix-collapsible-content-width)'
+              }}
+            />
+          </div>
+        </div>
+        <div className="lg:col-span-2">
+          <div
+            className="relative -mb-6 aspect-[1735/990] w-full overflow-hidden rounded-t-2xl shadow-2xl lg:mt-10 lg:h-[500px] lg:w-[800px]"
+            style={{
+              opacity: '1',
+              transform: 'none'
+            }}
+          >
+            <button className="group absolute inset-0 z-10 flex h-full w-full items-center justify-center bg-black bg-opacity-0 transition-all duration-300 hover:bg-opacity-5 focus:outline-none">
+              <div className="flex flex-col items-center space-y-4">
+                <div className="rounded-full bg-gradient-to-tr from-black to-gray-700 p-5 ring-[6px] ring-gray-300 transition-all duration-300 group-hover:scale-110 group-hover:ring-4 group-active:scale-90">
+                  <svg
+                    className="h-5 w-5 text-white"
+                    fill="currentColor"
+                    height="24"
+                    stroke="currentColor"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
+                    viewBox="0 0 24 24"
+                    width="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <polygon points="5 3 19 12 5 21 5 3" />
+                  </svg>
+                </div>
+                <div className="flex rounded-full border border-gray-200 bg-white p-2 shadow-xl group-hover:shadow-2xl">
+                  <img
+                    alt="Steven Tey"
+                    className="h-10 w-10 rounded-full blur-0"
+                    data-nimg="1"
+                    decoding="async"
+                    height="36"
+                    loading="lazy"
+                    src="https://dub.co/_next/image?url=https%3A%2F%2Fd2vwwcvoksz7ty.cloudfront.net%2Fauthor%2Fsteventey.jpg&w=96&q=75&dpl=dpl_AVZhgNCcSja2E9sUibdYcydpCsfB"
+                    srcSet="/_next/image?url=https%3A%2F%2Fd2vwwcvoksz7ty.cloudfront.net%2Fauthor%2Fsteventey.jpg&w=48&q=75&dpl=dpl_AVZhgNCcSja2E9sUibdYcydpCsfB 1x, /_next/image?url=https%3A%2F%2Fd2vwwcvoksz7ty.cloudfront.net%2Fauthor%2Fsteventey.jpg&w=96&q=75&dpl=dpl_AVZhgNCcSja2E9sUibdYcydpCsfB 2x"
+                    style={{
+                      color: 'transparent'
+                    }}
+                    width="36"
+                  />
+                  <div className="ml-2 mr-4 flex flex-col text-left">
+                    <p className="text-sm font-medium text-gray-500">
+                      Watch Demo
+                    </p>
+                    <p className="text-sm text-blue-500">
+                      2:56
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </button>
+            <img
+              alt="Powerful analytics for the modern marketer"
+              className="absolute h-full object-cover blur-0"
+              data-nimg="1"
+              decoding="async"
+              height="990"
+              loading="lazy"
+              src="https://dub.co/_next/image?url=https%3A%2F%2Fd2vwwcvoksz7ty.cloudfront.net%2Ffeatures%2Fanalytics.png&w=3840&q=75&dpl=dpl_AVZhgNCcSja2E9sUibdYcydpCsfB"
+              srcSet="/_next/image?url=https%3A%2F%2Fd2vwwcvoksz7ty.cloudfront.net%2Ffeatures%2Fanalytics.png&w=1920&q=75&dpl=dpl_AVZhgNCcSja2E9sUibdYcydpCsfB 1x, /_next/image?url=https%3A%2F%2Fd2vwwcvoksz7ty.cloudfront.net%2Ffeatures%2Fanalytics.png&w=3840&q=75&dpl=dpl_AVZhgNCcSja2E9sUibdYcydpCsfB 2x"
+              style={{
+                color: 'transparent'
+              }}
+              width="1735"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
+</div>
+
+
+      
       <div className="mx-auto w-full max-w-screen-xl px-2.5 lg:px-20 space-y-5 pt-20 md:space-y-10">
   <div className="mx-auto max-w-md text-center sm:max-w-xl">
     <h2 className="font-display text-4xl font-extrabold leading-tight text-black sm:text-5xl sm:leading-tight">
@@ -476,7 +978,8 @@ export default async function Home() {
     marketing teams
   </p>
 </div>
-
+<div class="mx-auto w-medium max-w-screen-xl px-2.5 lg:px-10 pb-10 pt-5">
+</div>
     </>
   );
 }
