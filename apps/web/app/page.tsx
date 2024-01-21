@@ -155,11 +155,11 @@ export default async function Home() {
     <span className="bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">
       Powerful 
     </span>
-    features for 
+    <span> features for</span>
     <span className="bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">
-      effective
+       effective
     </span>
-    marketing teams
+     <span> marketing teams</span>
   </h2>
   <p className="mt-5 text-gray-600 sm:text-lg">
     Vercl.co is more than just a link shortener. We've built a suite of powerful
