@@ -23,7 +23,7 @@ export function NavMobile() {
   }, [open]);
 
   const { data: session, isLoading } = useSWR(
-    domain === "dub.co" && "/api/auth/session",
+    domain === "app.mcxleague.com" && "/api/auth/session",
     fetcher,
     {
       dedupingInterval: 60000,
