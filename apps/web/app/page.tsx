@@ -155,7 +155,7 @@ export default async function Home() {
     <span className="bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">
       Powerful 
     </span>
-    <span> features for</span>
+    <span> features for </span>
     <span className="bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">
        effective
     </span>
