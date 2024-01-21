@@ -1615,7 +1615,7 @@ export default async function Home() {
     marketing teams
   </p>
 </div>
-<div class="mx-auto w-medium max-w-screen-xl px-2.5 lg:px-10 pb-10 pt-5">
+<div className="mx-auto w-medium max-w-screen-xl px-2.5 lg:px-10 pb-10 pt-5">
 </div>
     </>
   );
