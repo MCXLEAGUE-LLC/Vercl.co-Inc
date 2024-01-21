@@ -63,7 +63,7 @@ export default async function Home() {
   </h2>
   <div className="mx-auto mt-5 flex max-w-fit space-x-4">
     <a
-      href="https://app.dub.co"
+      href="https://app.vercl.co"
       className="rounded-full border border-black bg-black px-5 py-2 text-sm text-white shadow-lg transition-all hover:bg-white hover:text-black"
     >
       Start for Free
@@ -164,32 +164,6 @@ export default async function Home() {
       {' '}Start for free, no credit card required.
     </p>
   </div>
-  <div className="mx-auto mb-12 flex max-w-fit items-center space-x-2 text-center">
-    <p className="w-14 font-medium text-gray-600">
-      Monthly
-    </p>
-    <div
-      style={{
-        position: 'relative'
-      }}
-     />
-    <button
-      aria-checked="true"
-      className="radix-state-checked:bg-blue-500 radix-state-unchecked:bg-gray-200 cursor-pointer focus:outline-none focus-visible:ring focus-visible:ring-blue-500 focus-visible:ring-opacity-75 relative inline-flex flex-shrink-0 rounded-full border-2 border-transparent transition-colors duration-200 ease-in-out h-5 w-11"
-      data-state="checked"
-      role="switch"
-      type="button"
-      value="on"
-    >
-      <span
-        className="radix-state-checked:translate-x-6 radix-state-unchecked:translate-x-0 pointer-events-none transform rounded-full bg-white shadow-lg ring-0 transition duration-200 ease-in-out h-4 w-4 translate-x-6"
-        data-state="checked"
-      />
-    </button>
-    <p className="w-14 font-medium text-gray-600">
-      Yearly
-    </p>
-  </div>
   <div className="grid grid-cols-1 gap-8 lg:grid-cols-3 lg:gap-4">
     <div className="relative rounded-2xl bg-white border border-gray-200 shadow-lg">
       <div className="p-8">
@@ -216,7 +190,7 @@ export default async function Home() {
       <div className="flex items-center justify-center border-b border-t border-gray-200 bg-gray-50 px-8 py-5">
         <a
           className="block w-full rounded-full border py-2 text-center font-medium text-white transition-all duration-200 ease-in-out hover:bg-transparent bg-black border-black hover:text-black"
-          href="https://app.dub.co/register"
+          href="https://app.vercl.co/register"
         >
           Start for free
         </a>
@@ -418,7 +392,7 @@ export default async function Home() {
       <div className="flex items-center justify-center border-b border-t border-gray-200 bg-gray-50 px-8 py-5">
         <a
           className="block w-full rounded-full border py-2 text-center font-medium text-white transition-all duration-200 ease-in-out hover:bg-transparent bg-blue-500 border-blue-500 hover:text-blue-500"
-          href="https://app.dub.co/register"
+          href="https://app.vercl.co/register"
         >
           Get started with Pro
         </a>
@@ -642,7 +616,7 @@ export default async function Home() {
       <div className="flex items-center justify-center border-b border-t border-gray-200 bg-gray-50 px-8 py-5">
         <a
           className="block w-full rounded-full border py-2 text-center font-medium text-white transition-all duration-200 ease-in-out hover:bg-transparent bg-sky-900 border-sky-900 hover:text-sky-900"
-          href="https://app.dub.co/register"
+          href="https://app.vercl.co/register"
         >
           Get started with Business
         </a>
@@ -843,7 +817,7 @@ export default async function Home() {
     <div className="flex flex-col justify-between space-y-4 p-8 pb-0 sm:flex-row sm:items-center sm:space-y-0 sm:p-16 sm:pb-0">
       <div>
         <h3 className="font-display text-2xl font-bold sm:text-3xl">
-          Dub{' '}
+          Vercl.co{' '}
           <span className="bg-gradient-to-r from-violet-600 to-pink-600 bg-clip-text text-transparent">
             Enterprise
           </span>
@@ -864,7 +838,7 @@ export default async function Home() {
         className="group rounded-full border bg-gradient-to-r from-violet-600 to-pink-600 px-8 py-2 text-center font-medium text-white transition-all duration-200 ease-in-out hover:scale-105 active:scale-95"
         href="/enterprise"
       >
-        Contact us
+        Contact Sales
       </a>
     </div>
     <div className="relative mx-8 mt-4 overflow-hidden sm:mx-16">
@@ -1315,7 +1289,7 @@ export default async function Home() {
       </span>
     </h2>
     <p className="mt-5 text-gray-600 sm:text-lg">
-      Check out our changelog to see what's new on Dub.co
+      Check out our changelog to see what's new on vercl.co
     </p>
   </div>
   <ul className="mx-5 max-w-2xl md:mx-auto md:translate-x-16">
@@ -1378,7 +1352,7 @@ export default async function Home() {
             <div className="absolute -left-1 top-[1.6875rem] h-2.5 w-2.5 rounded-full bg-gray-400 transition-colors group-hover:bg-gray-700" />
           </div>
           <h3 className="text-2xl font-medium tracking-tight text-gray-700 transition-colors group-hover:text-black">
-            Unveiling Dub.co's New Chapter
+            Unveiling vercl.co's New Chapter
           </h3>
         </div>
       </a>
@@ -1398,7 +1372,7 @@ export default async function Home() {
             </dd>
           </dl>
           <h3 className="text-lg font-medium tracking-tight text-gray-700">
-            Unveiling Dub.co's New Chapter
+            Unveiling vercl.co's New Chapter
           </h3>
         </div>
       </a>
