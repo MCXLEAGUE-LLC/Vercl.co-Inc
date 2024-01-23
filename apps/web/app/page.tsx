@@ -14,6 +14,7 @@ import { Background } from "@dub/ui";
 export default async function Home() {
   return (
     <>
+      <Background />
       <Hero />
       <Demo />
       <Logos />
