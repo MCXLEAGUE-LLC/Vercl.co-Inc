@@ -8,7 +8,6 @@ import Hero from "@/ui/home/hero";
 import Logos from "@/ui/home/logos";
 import OSS from "@/ui/home/oss";
 import Testimonials from "@/ui/home/testimonials";
-import Changelog from "@/ui/home/changelog";
 import { Background } from "@dub/ui";
 
 export default async function Home() {
@@ -22,7 +21,6 @@ export default async function Home() {
       <Stats />
       <Features />
       <Testimonials />
-      <Changelog />
       <OSS />
     </>
   );
