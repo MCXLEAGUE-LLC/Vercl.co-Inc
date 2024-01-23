@@ -236,7 +236,7 @@ export default async function Home() {
     </article>
     <div className="mt-10 w-full border-t border-gray-200 pt-10 text-center">
       <p className="text-gray-500">
-        Last updated: January, 2024
+        Last updated: January 22, 2024
       </p>
     </div>
   </div>
