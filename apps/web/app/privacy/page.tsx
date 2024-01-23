@@ -12,6 +12,7 @@ import { Background } from "@dub/ui";
 
 export default async function Home() {
   return (
+<>
     <Background />
 <div className="bg-gray-50">
   <div className="bg-white py-20 sm:py-40">
@@ -134,5 +135,6 @@ export default async function Home() {
     </div>
   </div>
 </div>
+  </>
   );
 }
