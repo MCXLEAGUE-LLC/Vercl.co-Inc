@@ -1,4 +1,3 @@
-import { formatDate } from "#/lib/utils";
 import MaxWidthWrapper from "@/components/shared/max-width-wrapper";
 import { allChangelogPosts } from "contentlayer/generated";
 import Link from "next/link";
@@ -49,7 +48,7 @@ const DesktopChangelogEntry = ({ post }) => (
     <dl>
       <dt className="sr-only">Published on</dt>
       <dd className="text-base font-medium text-gray-400 transition-colors group-hover:text-gray-700">
-        <time dateTime={post.publishedAt}>{formatDate(post.publishedAt)}</time>
+        <time dateTime={post.publishedAt}></time>
       </dd>
     </dl>
     <div className="col-span-4 flex items-center">
@@ -78,7 +77,6 @@ const MobileChangelogEntry = ({ post }) => (
         <dt className="sr-only">Published on</dt>
         <dd className="text-sm font-medium text-gray-400">
           <time dateTime={post.publishedAt}>
-            {formatDate(post.publishedAt)}
           </time>
         </dd>
       </dl>
