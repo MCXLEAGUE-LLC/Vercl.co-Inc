@@ -1,12 +1,12 @@
 "use client";
 
-import Demo from "@/web/ui/home/demo";
-import Globe from "@/web/ui/home/globe";
-import Stats from "@/web/ui/home/stats";
-import Features from "@/web/ui/home/features";
-import Hero from "@/web/ui/home/hero";
-import Logos from "@/web/ui/home/logos";
-import OSS from "@/web/ui/home/oss";
+import Demo from "@/ui/home/demo";
+import Globe from "@/ui/home/globe";
+import Stats from "@/ui/home/stats";
+import Features from "@/ui/home/features";
+import Hero from "@/ui/home/hero";
+import Logos from "@/ui/home/logos";
+import OSS from "@/ui/home/oss";
 import Testimonials from "@/ui/home/testimonials";
 import Changelog from "@/ui/home/changelog";
 import { Background } from "@dub/ui";
