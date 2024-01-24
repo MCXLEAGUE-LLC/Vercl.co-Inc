@@ -15,6 +15,7 @@ export * from "./radio-group";
 export * from "./switch";
 export * from "./tooltip";
 export * from "./hero";
+export * from "./submitforum";
 
 // hooks
 export * from "./hooks";
