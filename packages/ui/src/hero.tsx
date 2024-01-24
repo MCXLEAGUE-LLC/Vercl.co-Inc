@@ -1,5 +1,6 @@
 export function Hero({
   return (
+    <>
 <div className="mx-auto mb-10 mt-12 max-w-md px-2.5 text-center sm:max-w-lg sm:px-0">
   <a
     className="group mx-auto flex max-w-fit items-center justify-center space-x-2 overflow-hidden rounded-full border border-gray-200 bg-white px-7 py-2 shadow-[inset_10px_-50px_94px_0_rgb(199,199,199,0.1)] backdrop-blur transition-all hover:border-gray-300 hover:bg-white/50"
@@ -62,5 +63,6 @@ export function Hero({
     </a>
   </div>
 </div>
+      </>
   );
 }
