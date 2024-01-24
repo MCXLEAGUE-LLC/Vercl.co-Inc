@@ -6,7 +6,6 @@ import { cn, constructMetadata } from "@dub/utils";
 import "@/styles/globals.css";
 
 export const metadata = {
-  title: "Vercl.co - is the go-to link management infrastructure for modern marketing teams.",
   description:
     "Vercl.co - is the go-to link management infrastructure for modern marketing teams.",
   metadataBase: new URL("https://www.vercl.co"),
