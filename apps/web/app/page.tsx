@@ -12,6 +12,7 @@ import { Background, Hero, SubmitForum, Statistics, Pricing, Changelog, AboveMes
 
 export default async function Home() {
   return (
+<>
       <Background />
       <Hero />
       <SubmitForum />
@@ -19,5 +20,6 @@ export default async function Home() {
       <Pricing />
       <Changelog />
       <AboveMessage />
+</>
   );
 }
