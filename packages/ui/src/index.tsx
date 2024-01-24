@@ -18,6 +18,7 @@ export * from "./hero";
 export * from "./submitforum";
 export * from "./statistics";
 export * from "./prcing";
+export * from "./changelog";
 
 // hooks
 export * from "./hooks";
