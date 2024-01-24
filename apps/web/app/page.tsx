@@ -163,6 +163,7 @@ export default async function Home() {
       <br />
       {' '}Start for free, no credit card required.
     </p>
+    <p>*Prices are yearly</p>
   </div>
   <div className="grid grid-cols-1 gap-8 lg:grid-cols-3 lg:gap-4">
     <div className="relative rounded-2xl bg-white border border-gray-200 shadow-lg">
