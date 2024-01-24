@@ -17,7 +17,7 @@ export * from "./tooltip";
 export * from "./hero";
 export * from "./submitforum";
 export * from "./statistics";
-export * from "./prcing";
+export * from "./pricing";
 export * from "./changelog";
 export * from "./abovemessage";
 
