@@ -1,4 +1,4 @@
-export function Hero({
+export function Hero(){
   return (
     <>
 <div className="mx-auto mb-10 mt-12 max-w-md px-2.5 text-center sm:max-w-lg sm:px-0">
@@ -64,6 +64,5 @@ export function Hero({
   </div>
 </div>
       </>
-    )
   );
 }
