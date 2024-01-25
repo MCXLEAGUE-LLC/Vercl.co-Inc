@@ -1,8 +1,8 @@
 "use client";
 
 import Link from "next/link";
-import { Airplay, Chart, Users, Photo } from "@/components/shared/icons";
-import MaxWidthWrapper from "@/components/shared/max-width-wrapper";
+import { Airplay, Chart, Users, Photo } from "../../../components/shared/icons";
+import MaxWidthWrapper from "../../../components/shared/max-width-wrapper";
 import { useState } from "react";
 import {
   Accordion,
