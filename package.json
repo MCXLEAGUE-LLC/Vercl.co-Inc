@@ -22,5 +22,10 @@
     "tsconfig": "workspace:*",
     "turbo": "^1.10.15"
   },
-  "packageManager": "pnpm@8.6.10"
+  "packageManager": "pnpm@8.6.10",
+  "dependencies": {
+    "@react-spring/web": "^9.7.3",
+    "cobe": "^0.6.3",
+    "framer-motion": "^10.16.16"
+  }
 }
