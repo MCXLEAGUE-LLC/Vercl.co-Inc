@@ -21,6 +21,7 @@ export * from "./pricing";
 export * from "./changelog";
 export * from "./abovemessage";
 export * from "./globe.tsx"
+export * from "./globe-client.tsx"
 // hooks
 export * from "./hooks";
 
