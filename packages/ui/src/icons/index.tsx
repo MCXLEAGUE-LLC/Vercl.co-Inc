@@ -21,3 +21,4 @@ export { default as Github } from "./github";
 export { default as Google } from "./google";
 export { default as LinkedIn } from "./linkedin";
 export { default as Unsplash } from "./unsplash";
+export {default as Twitter} from "./twitter"
