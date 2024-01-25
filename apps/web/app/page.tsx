@@ -8,7 +8,10 @@ import { motion } from "framer-motion";
 import { useParams } from "next/navigation";
 import { useState } from "react";
 import { useDebounce } from "use-debounce";
-import { Background, Hero, SubmitForum, Statistics, Pricing, Changelog, AboveMessage, GlobeClient } from "@dub/ui";
+import { Background, Hero, SubmitForum, Statistics, Pricing, Changelog, AboveMessage } from "@dub/ui";
+import GlobeClient from "../ui/globe-client";
+import Globe from "../ui/globe";
+import { Suspense } from "react";
 
 export default async function Home() {
   return (
@@ -16,7 +19,9 @@ export default async function Home() {
       <Background />
       <Hero />
       <SubmitForum />
-      <GlobeClient />
+      <Suspense fallback={<GlobeClient markers={[]} />}>
+        <Globe />
+      </Suspense>
       <Statistics />
       <Pricing />
       <Changelog />
