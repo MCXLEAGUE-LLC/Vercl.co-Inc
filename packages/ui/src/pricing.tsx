@@ -6,7 +6,7 @@ export function Pricing() {
   <div className="mx-auto mb-6 text-center sm:max-w-lg">
     <h1 className="font-display text-4xl font-extrabold text-black [text-wrap:balance] sm:text-5xl sm:leading-tight">
       <span className="bg-gradient-to-r from-violet-600 via-blue-600 to-cyan-600 bg-clip-text text-transparent">
-        Straightforward,
+        Straight forward,
       </span>
       {' '}affordable pricing
     </h1>
