@@ -8,7 +8,7 @@ import { motion } from "framer-motion";
 import { useParams } from "next/navigation";
 import { useState } from "react";
 import { useDebounce } from "use-debounce";
-import { Background, Hero, SubmitForum, Statistics, Pricing, Changelog, AboveMessage } from "@dub/ui";
+import { Background, Hero, SubmitForum, Statistics, Pricing, Changelog, AboveMessage, Globe } from "@dub/ui";
 
 export default async function Home() {
   return (
@@ -16,6 +16,7 @@ export default async function Home() {
       <Background />
       <Hero />
       <SubmitForum />
+      <Globe />
       <Statistics />
       <Pricing />
       <Changelog />
