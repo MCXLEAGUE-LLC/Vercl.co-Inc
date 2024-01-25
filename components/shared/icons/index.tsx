@@ -6,7 +6,6 @@ export { default as X } from "./x";
 export { default as Chart } from "./chart";
 export { default as Divider } from "./divider";
 export { default as Github } from "./github";
-export { default as Twitter } from "./twitter";
 export { default as Facebook } from "./facebook";
 export { default as LinkedIn } from "./linkedin";
 export { default as AlertCircleFill } from "./alert-circle-fill";
