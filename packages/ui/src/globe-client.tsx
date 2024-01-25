@@ -5,8 +5,9 @@ import { useEffect, useRef, useState } from "react";
 import createGlobe from "cobe";
 import { AnimatePresence, motion } from "framer-motion";
 import { useSpring } from "react-spring";
-import { Drag, X } from "../../components/shared/icons";
+import { Drag, X } from "../../../components/shared/icons";
 import useIntersectionObserver from "#/lib/hooks/use-intersection-observer";
+
 
 interface MarkerProps {
   location: [number, number];
