@@ -16,10 +16,7 @@ export default async function Globe() {
     {
       headers: {
         Authorization: `Bearer ${process.env.TINYBIRD_API_KEY}`,
-      },
-      next: {
-        revalidate: 43200, // every 12 hours
-      },
+      }
     }
   )
     .then((res) => res.json())
