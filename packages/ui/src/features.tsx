@@ -11,9 +11,9 @@ import {
   AccordionTrigger,
 } from "#/ui/accordion";
 import { AnimatePresence, motion } from "framer-motion";
-import { useLinkQRModal } from "#/ui/modals/link-qr-modal";
+import { useLinkQRModal } from "@/ui/modals/link-qr-modal";
 import { APP_DOMAIN, DEFAULT_LINK_PROPS } from "#/lib/constants";
-import { useAddEditLinkModal } from "#/ui/modals/add-edit-link-modal";
+import { useAddEditLinkModal } from "@/ui/modals/add-edit-link-modal";
 import { Link2, QrCode } from "lucide-react";
 
 const featureList = [
