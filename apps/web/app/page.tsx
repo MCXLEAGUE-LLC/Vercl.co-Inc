@@ -9,8 +9,8 @@ import { useParams } from "next/navigation";
 import { useState } from "react";
 import { useDebounce } from "use-debounce";
 import { Background, Hero, SubmitForum, Statistics, Pricing, Changelog, AboveMessage } from "@dub/ui";
-import GlobeClient from "#/ui/globe-client";
-import Globe from "#/ui/globe";
+import GlobeClient from "@/ui/globe-client";
+import Globe from "@/ui/globe";
 import { Suspense } from "react";
 
 export default async function Home() {
